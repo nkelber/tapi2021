@@ -1,0 +1,480 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Constellate Collaborative Notebooks and Lessons &#8212; Teaching Text Analysis with Constellate</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      <img src="_static/constellate-beta.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Teaching Text Analysis with Constellate</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/intro.html">
+   About
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  The Course
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/schedule.html">
+   Course Schedule
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/syllabus.html">
+   Course Syllabus
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Open Educational Directory
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/all-notebooks.html">
+   Open Notebook Lessons Directory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/more-classes.html">
+   Classes using Jupyter Book
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/add-my-lesson.html">
+   Add your lesson or class
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Create your own Teaching Website
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/create-your-own.html">
+   Create your own Jupyter Book
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/install-software.html">
+   Installing software to modify your Book
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/configure-git.html">
+   Clone your repository to your local machine
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/making-site-changes.html">
+   Make local changes
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/pushing-to-git.html">
+   Push changes to the web
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Reference
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://constellate.org">
+   Constellate Platform
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://docs.constellate.org/">
+   Constellate Documentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://docs.constellate.org/key-terms/">
+   Text Analysis Glossary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://jupyterbook.org/intro.html">
+   Jupyter Book Documentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="book/keep-learning.html">
+   More ways to keep learning
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/README.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/ithaka/tdm-notebooks"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/ithaka/tdm-notebooks/issues/new?title=Issue%20on%20page%20%2FREADME.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/ithaka/tdm-notebooks/edit/master/README.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Constellate Collaborative Notebooks and Lessons
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#local-installation">
+     Local Installation
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#about-constellate">
+   About Constellate
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#problem">
+     Problem:
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#solution">
+     Solution:
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#learn-teach">
+       Learn &amp; Teach
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#build">
+       Build
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#analyze">
+       Analyze
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#interested-in-participating">
+   Interested in Participating?
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="constellate-collaborative-notebooks-and-lessons">
+<h1>Constellate Collaborative Notebooks and Lessons<a class="headerlink" href="#constellate-collaborative-notebooks-and-lessons" title="Permalink to this headline">¶</a></h1>
+<p>Constellate is a platform to learn and perform text analysis, build datasets, and share analytics course materials. Open the black box of text analysis with <a class="reference external" href="https://constellate.org/">Constellate</a>, from JSTOR and Portico.</p>
+<p>This repository is a collection of Jupyter Notebooks that may be used by individuals for learning or teaching text analytics.  You may access them in our textbook, <a class="reference external" href="https://ithaka.github.io/tdm-notebooks/book/intro.html">Teaching Text Analysis with Constellate</a>, and also interact with a number of them from your <a class="reference external" href="https://constellate.org/dataset/dashboard/">Constellate datasets</a>.  All these Notebooks will run in the Constellate environment.</p>
+<p>Read more about Constellate below, after the nuts and bolts of cloning these notebooks.</p>
+<div class="section" id="local-installation">
+<h2>Local Installation<a class="headerlink" href="#local-installation" title="Permalink to this headline">¶</a></h2>
+<p>You can also clone this repository and run the examples in a local Jupyter Notebook environment.
+Please keep in mind that this project is in a beta phase and both the notebooks and client code may change frequently.
+If you have created your own notebooks, or used the client code in some way, we would like to hear about it. Please let us know either here via Github issues or by emailing <a class="reference external" href="mailto:tdm&#37;&#52;&#48;ithaka&#46;org">tdm<span>&#64;</span>ithaka<span>&#46;</span>org</a>.</p>
+<p>To install the client run the following.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">src/tdm_client.py</span> <span class="pre">install</span></code></p></li>
+</ul>
+<p>Some of the examples use <a class="reference external" href="https://www.nltk.org/">nltk</a> model files. Download these with:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">nltk.downloader</span> <span class="pre">stopwords</span> <span class="pre">wordnet</span></code></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="about-constellate">
+<h1>About Constellate<a class="headerlink" href="#about-constellate" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="problem">
+<h2>Problem:<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
+<p>Text analytics, or the process of deriving new information from pattern and trend analysis of the written word, has the potential to revolutionize research across disciplines. Sadly, there is a massive hurdle facing those eager to unleash its power.  The coding skills and statistical knowledge that text mining requires can take years to develop.   All too often, researchers learn about the promise of text mining, only to have it revealed that the promise can be realized solely by the select few with the necessary technical skills.  Ted Underwood, Professor of English at the University of Illinois, likens this scenario to researchers being presented with a “<a class="reference external" href="https://tedunderwood.com/2018/01/04/a-broader-purpose/">deceptively gentle welcome mat, followed by a trapdoor</a>.”</p>
+</div>
+<div class="section" id="solution">
+<h2>Solution:<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h2>
+<p>ITHAKA has addressed this problem by building Constellate, a text analytics platform aimed at teaching and enabling a generation of researchers to text mine. Two of ITHAKA’s services, <a class="reference external" href="https://www.jstor.org/">JSTOR</a> and <a class="reference external" href="https://www.portico.org/">Portico</a>, are the initial sources of content for the new platform, which now includes <a class="reference external" href="https://chroniclingamerica.loc.gov/">Chronicling America</a>, collections from <a class="reference external" href="https://docsouth.unc.edu/docsouthdata/">Documenting the American South</a>, the <a class="reference external" href="https://www.jstor.org/site/saoa/">South Asia Open Archives</a> and <a class="reference external" href="http://revealdigital.com/independent-voices/">Independent Voices</a> from <a class="reference external" href="http://revealdigital.org/">Reveal Digital</a>.</p>
+<p>Constellate provides value to users in three core areas – they can teach and learn text analytics, build datasets from across multiple content sources, and visualize and analyze their datasets:</p>
+<div class="section" id="learn-teach">
+<h3>Learn &amp; Teach<a class="headerlink" href="#learn-teach" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Template and Tutorial Code: Work with template Jupyter Notebooks to analyze your dataset and learn about text analytics (with additional environments forthcoming, such as R Studio).</p></li>
+<li><p>Lessons and Documentation: Lessons and educational materials created by a community of experts, including those from the NEH-funded <a class="reference external" href="http://labs.jstor.org/tapi/">Text Analysis Pedagogy Institutes</a>.</p></li>
+<li><p>Collaborative Teaching Materials Creation: Users may create, edit, reuse and collaborate in the creation of tutorials, code, documentation, and other educational resources for text analysis.</p></li>
+</ul>
+</div>
+<div class="section" id="build">
+<h3>Build<a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Multiple Collections: Anchor collections from JSTOR and Portico, with additional content sources continually added (such as Library of Congress’ Chronicling America). Further <a class="reference external" href="https://docs.constellate.org/data-sources/">details about the collections</a> are available.</p></li>
+<li><p>Data Download in JSON</p>
+<ul>
+<li><p>All content - bibliographic metadata, unigrams, bigrams, trigrams</p></li>
+<li><p>Open content - bibliographic metadata, full-text, unigrams, bigrams, trigrams</p></li>
+</ul>
+</li>
+<li><p>Dataset Dashboard: Easily view datasets you have built or accessed.</p></li>
+</ul>
+</div>
+<div class="section" id="analyze">
+<h3>Analyze<a class="headerlink" href="#analyze" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Analytics Lab: Integrated computational environment powered by BinderHub that will allow users to seamlessly analyze text content using provided template Jupyter Notebooks and tutorials.</p></li>
+<li><p>Visualize: Built-in visualizations for your datasets.</p></li>
+<li><p>Work with Rights Restricted Full Text: We are investigating the best way to meet this need – please contact us at <a class="reference external" href="mailto:tdm&#37;&#52;&#48;ithaka&#46;org">tdm<span>&#64;</span>ithaka<span>&#46;</span>org</a> if you need rights restricted full-text or just want to talk about your research.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="interested-in-participating">
+<h1>Interested in Participating?<a class="headerlink" href="#interested-in-participating" title="Permalink to this headline">¶</a></h1>
+<p>Reach out to us to participate in <a class="reference external" href="https://docs.constellate.org/participate-and-launch/#roll-out-and-beta-evaluation">our beta program</a> and get access to larger datasets and text analytics classes.</p>
+<hr/>
+<p>Created by <a class="reference external" href="http://nkelber.com">Nathan Kelber</a> and <a class="reference external" href="https://github.com/lawlesst">Ted Lawless</a> for <a class="reference external" href="https://labs.jstor.org/">JSTOR Labs</a> under <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC BY License</a></p>
+<p><strong>For questions/comments/improvements, email <a class="reference external" href="mailto:tdm&#37;&#52;&#48;ithaka&#46;org">tdm<span>&#64;</span>ithaka<span>&#46;</span>org</a>.</strong></p>
+<br />
+<p><img alt="CC BY License Logo" src="https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/CC_BY.png" /></p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Nathan Kelber and Ted Lawless<br/>
+        
+          <div class="extra_footer">
+            <div>
+<a href="https://creativecommons.org/licenses/by/2.0/"><img class="license" alt="Creative Commons License" src="https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/CC_BY.png" /></a> The tutorials and workshop materials are licensed under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons BY License</a>.
+</div>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-125778965-3', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
+  </body>
+</html>
