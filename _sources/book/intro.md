@@ -1,32 +1,23 @@
 # About
-Welcome to *Teaching Text Analysis with Constellate*, a course for Constellate Beta participants.   The site has three main purposes:
+Welcome to the **2021 Text Analysis Pedagogy Institute**, an open educational institute for the benefit of teachers (and aspiring teachers) of text analysis in the digital humanities and data science. The 2021 TAP Institute is led by [JSTOR Labs](https://labs.jstor.org) in partnership with [The University of Virginia Library](https://www.library.virginia.edu/) and [The University of Virginia School of Data Science](https://datascience.virginia.edu/). It is made possible by funding from the [National Endowment for the Humanities](https://neh.gov).
 
-1. To help train teachers in text analysis
-2. To share computational text analysis lessons in an Open Educational Directory
-3. To serve as a template for your own teacher workshops and courses
+This site contains links to the workshops for the institute and intends to:
 
-If you are completely new to teaching text analysis, we recommend you join our free one-month courses taught by Dr. Nathan Kelber of JSTOR Labs. Find out more by [joining our email list](mailto:tdm@ithaka.org?Subject=Joining%20Constellate%20Community). 
+1. Help train teachers in text analysis
+2. Share computational text analysis lessons in an Open Educational Directory
+3. Serve as a template for your own teacher workshops and courses
+
+The site is based on a template from the [Constellate platform](https://github.com/ithaka/tdm-notebooks).
 
 ## Licensing
 
-All of the teaching materials on this site are licensed under a Creative Commons BY license. You are free to share and adapt the materials for your own teaching so long as credit is given to the creators, the material is labeled with a CC BY License, and indicate if changes were made.
-
 ![CC BY License Logo](https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/CC_BY.png)
 
-## Open Educational Resources: Retain, Reuse, Revise, Remix, Redistribute
+All of the teaching materials on this site are licensed under a Creative Commons BY license. You are free to share and adapt the materials for your own teaching so long as credit is given to the creators, the material is labeled with a CC BY License, and you indicate if changes were made.
 
-This website has been written as a template ready for adoption by other teachers. [Create your own workshop or course from this template](./create-your-own.md). 
+## Citing a creator
 
-|Five Rs of OER|Constellate feature|
-|---|---|
-|Retain| Teaching materials are available in a [public GitHub Repo](https://github.com/ithaka/tdm-notebooks). Users have the right to make copies and keep them.|
-|Reuse| All lessons can be re-used without need for changes.|
-|Revise| Lessons can be adjusted modified, and altered so long as credit is given to the original creators.|
-|Remix| Lessons can be combined with other materials to make new lessons.|
-|Redistribute| Users are free to redistribute materials in original, revised, and/or remixed form so long as credit is givent to the original creators.|
+This lesson is based on [Lesson name and repository link]() from the 2021 Text Analysis Pedagogy **CC BY**, Instructor-First-Name Instructor-Last-Name.
 
-## Citing the original creators
 
-This [site, lesson] is a [Reused, Revised, Remixed] version of
-[Teaching Text Analysis with Constellate](https://github.com/ithaka/tdm-notebooks), a [Jupyter Book](http://jupyterbook.org) **CC BY**, [Nathan Kelber](http://nkelber.com) and Ted Lawless for [Constellate](https://constellate.org).
 
