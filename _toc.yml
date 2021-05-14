@@ -3,21 +3,42 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 - file: book/intro
 
-- part: The Course
+- part: About
   chapters:
   - file: book/schedule
-    title: Course Schedule
-  - file: book/syllabus
-    title: Course Syllabus
+    title: Class Schedule
+  - file: book/instructors
+    title: Instructors
 
-- part: Open Educational Directory
+- part: Courses
   chapters:
-  - file: book/all-notebooks
-    title: Open Notebook Lessons Directory
-  - file: book/more-classes
-    title: More teachers using this model
-  - file: book/add-my-lesson
-    title: Add your lesson or class
+  - file: book/courses/python-basics
+    title: Python Basics
+  - file: book/courses/intro-to-r
+    title: Introduction to R Programming
+  - file: book/courses/ocr
+    title: A Gentle Introduction to OCR
+  - file: book/courses/topic-models
+    title: How to Do Things with Topic Models
+  - file: book/courses/pandas
+    title: Data Analysis with Pandas
+  - file: book/courses/machine-learning-william
+    title: Machine Learning (Mattingly)
+  - file: book/courses/visualizing-humanities-data
+    title: Visualizing Humanities Data
+  - file: book/courses/ancient-medieval
+    title: Text Analysis in Ancient/Medieval Languages
+  - file: book/courses/machine-learning-grant
+    title: Machine Learning (Glass)
+  - file: book/courses/ner
+    title: Named Entity Recognition
+
+- part: After the Institute
+  chapters:
+  - file: book/keep-learning
+    title: More ways to keep learning
+  - url: https://constellate.org
+    title: Constellate Platform
 
 - part: Create your own Teaching Website
   chapters:
@@ -31,16 +52,8 @@
     title: Make local changes
   - file: book/pushing-to-git
     title: Push changes to the web
+  - url: https://jupyterbook.org/intro.html
+    title: Official Jupyter Book Documentation
 
-- part: Reference
-  chapters:
-    - url: https://constellate.org
-      title: Constellate Platform
-    - url: https://docs.constellate.org/
-      title: Constellate Documentation
-    - url: https://docs.constellate.org/key-terms/
-      title: Text Analysis Glossary
-    - url: https://jupyterbook.org/intro.html
-      title: Jupyter Book Documentation
-    - file: book/keep-learning
-      title: More ways to keep learning
+
+

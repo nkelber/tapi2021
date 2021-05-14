@@ -5,10 +5,10 @@
 
 #######################################################################################
 # Book settings
-title                       : Teaching Text Analysis with Constellate  # The title of the book. Will be placed in the left navbar.
-author                      : Nathan Kelber and Ted Lawless  # The author of the book
+title                       : ''  # The title of the book. Will be placed in the left navbar.
+author                      : '' # The author of the book
 copyright                   : "None"  # Copyright year to be placed in the footer
-logo                        : "book/img/constellate-beta.png" #logo.png  # A path to the book logo
+logo                        : "book/img/tapi-logo.png" #logo.png  # A path to the book logo
 exclude_patterns            : [Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 
 # Auto-exclude files not in the toc
@@ -77,7 +77,7 @@ launch_buttons:
   colab_url                 : "" #https://colab.research.google.com" # The URL of Google Colab (https://colab.research.google.com)
 
 repository:
-  url                       : https://github.com/ithaka/tdm-notebooks # The URL to your book's repository
+  url                       : https://github.com/nkelber/tapi2021 # The URL to your book's repository
   path_to_book              : ""  # A path to your book's folder, relative to the repository root.
   branch                    : master  # Which branch of the repository should be used when creating links
 
