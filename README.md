@@ -1,9 +1,19 @@
-# Constellate Collaborative Notebooks and Lessons
-Constellate is a platform to learn and perform text analysis, build datasets, and share analytics course materials. Open the black box of text analysis with [Constellate](https://constellate.org/), from JSTOR and Portico. 
+# Text Analysis Pedagogy Institute 2021
 
-This repository is a collection of Jupyter Notebooks that may be used by individuals for learning or teaching text analytics.  You may access them in our textbook, [Teaching Text Analysis with Constellate](https://ithaka.github.io/tdm-notebooks/book/intro.html), and also interact with a number of them from your [Constellate datasets](https://constellate.org/dataset/dashboard/).  All these Notebooks will run in the Constellate environment.  
+This website was created for the [2021 Text Analysis Pedagogy Institute](https://labs.jstor.org/tapi/). It contains links to the following lessons:
 
-Read more about Constellate below, after the nuts and bolts of cloning these notebooks.
+* Python Basics by Nathan Kelber
+* Intro to R by Jacalyn Huband
+* Images to Text: A Gentle Introduction to Optical Character Recognition by Hannah Jacobs
+* How to Do Things with Topic Models by Rafael Alvarado
+* Data Analysis with Pandas by Melanie Walsh
+* Machine Learning by William Mattingly
+* Visualizing Humanities Data by Zoe LeBlanc
+* Text Analysis in Ancient/Medieval Languages by William Mattingly
+* Machine Learning by Grant Glass
+* Named Entity Recognition by Zoe LeBlanc
+
+This website is based on a [template](https://github.com/ithaka/tdm-notebooks) from the [Constellate platform](https://constellate.org). All these Notebooks will run in the Constellate environment.  
 
 ## Local Installation
 
