@@ -10,22 +10,31 @@
   - file: book/instructors
     title: Instructors
 
-- part: Courses
+- part: Week 1 (June 7, 9, 11)
   chapters:
   - file: book/courses/python-basics
     title: Python Basics
   - file: book/courses/intro-to-r
     title: Introduction to R Programming
+
+- part: Week 2 (June 14, 16, 18)
+  chapters:
   - file: book/courses/ocr
     title: A Gentle Introduction to OCR
   - file: book/courses/topic-models
     title: How to Do Things with Topic Models
   - file: book/courses/pandas
     title: Data Analysis with Pandas
+
+- part: Week 3 (June 21, 23, 25)
+  chapters:
   - file: book/courses/machine-learning-william
     title: Machine Learning (Mattingly)
   - file: book/courses/visualizing-humanities-data
     title: Visualizing Humanities Data
+
+- part: Week 4 (June 28 & 30, July 2)
+  chapters:
   - file: book/courses/ancient-medieval
     title: Text Analysis in Ancient/Medieval Languages
   - file: book/courses/machine-learning-grant
