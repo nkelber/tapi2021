@@ -5,11 +5,11 @@
 
 **Time:** 9am-10:30am (Eastern Daylight Time)
 
-## Monday (June 28, 2021)
-* [Lesson 1]()
+**Dates:**
+* Monday (June 28, 2021)
+* Wednesday (June 30, 2021)
+* Friday (July 2, 2021)
 
-## Wednesday (June 30, 2021)
-* [Lesson 2]()
+[![binder logo](https://static.mybinder.org/badge_logo.svg)]() *Start lesson*
 
-## Friday (July 2, 2021)
-* [Lesson 3]()
+[![GitHub logo](https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/github-logo.png)]() *See source code*

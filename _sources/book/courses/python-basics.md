@@ -5,12 +5,13 @@
 
 **Time:** 9am-10:30am (Eastern Daylight Time)
 
-## Monday (June 7, 2021)
-* [Getting Started with Jupyter Notebooks](../../getting-started-with-jupyter.ipynb)
-* [Python Basics 1](../../python-basics-1.ipynb)
+**Dates:** 
+* Monday (June 7, 2021)
+* Wednesday (June 9, 2021)
+* Friday (June 11, 2021)
 
-## Wednesday (June 9, 2021)
-* [Python Basics 2](../../python-basics-2.ipynb)
+[![binder logo](https://static.mybinder.org/badge_logo.svg)](https://binder.constellate.org/v2/gh/ithaka/tdm-notebooks/master?) *Start lesson*
 
-## Friday (June 11, 2021)
-* [Python Basics 3](../../python-basics-3.ipynb)
+[![GitHub logo](https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/github-logo.png)](https://github.com/ithaka/tdm-notebooks) *See source code*
+
+These lessons were created for [Constellate](https://constellate.org).
