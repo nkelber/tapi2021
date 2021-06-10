@@ -10,6 +10,6 @@
 * Wednesday (June 16, 2021)
 * Friday (June 18, 2021)
 
-[![binder logo](https://static.mybinder.org/badge_logo.svg)]() *Start lesson*
+[![Binder](https://binder.constellate.org/badge_logo.svg)](https://binder.constellate.org/v2/gh/melaniewalsh/Data-Analysis-with-Pandas/main) *Start lesson*
 
-[![GitHub logo](https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/github-logo.png)]() *See source code*
+[![GitHub logo](https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/github-logo.png)](https://github.com/melaniewalsh/Data-Analysis-with-Pandas) *See source code*
