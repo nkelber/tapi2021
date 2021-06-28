@@ -10,6 +10,6 @@
 * Wednesday (June 30, 2021)
 * Friday (July 2, 2021)
 
-[![binder logo](https://static.mybinder.org/badge_logo.svg)]() *Start lesson*
+[![binder logo](https://static.mybinder.org/badge_logo.svg)](https://binder.constellate.org/v2/gh/Grantglass/intro_to_ml/main) *Start lesson*
 
-[![GitHub logo](https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/github-logo.png)]() *See source code*
+[![GitHub logo](https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/github-logo.png)](https://github.com/Grantglass/intro_to_ml) *See source code*
