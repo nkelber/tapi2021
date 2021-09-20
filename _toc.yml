@@ -1,55 +1,41 @@
-
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-- file: book/intro
-
-- part: About
+format: jb-book
+root: book/intro
+parts:
+- caption: About
   chapters:
   - file: book/schedule
     title: Class Schedule
   - file: book/instructors
     title: Instructors
-
-- part: Week 1 (June 7, 9, 11)
+- caption: Open Course Materials
   chapters:
   - file: book/courses/python-basics
     title: Python Basics
   - file: book/courses/intro-to-r
     title: Introduction to R Programming
-
-- part: Week 2 (June 14, 16, 18)
-  chapters:
   - file: book/courses/ocr
     title: A Gentle Introduction to OCR
   - file: book/courses/topic-models
     title: How to Do Things with Topic Models
   - file: book/courses/pandas
     title: Data Analysis with Pandas
-
-- part: Week 3 (June 21, 23, 25)
-  chapters:
   - file: book/courses/machine-learning-william
     title: Machine Learning (Mattingly)
   - file: book/courses/visualizing-humanities-data
     title: Visualizing Humanities Data
-
-- part: Week 4 (June 28 & 30, July 2)
-  chapters:
   - file: book/courses/ancient-medieval
     title: Text Analysis in Ancient/Medieval Languages
   - file: book/courses/machine-learning-grant
     title: Machine Learning (Glass)
   - file: book/courses/ner
     title: Named Entity Recognition
-
-- part: After the Institute
+- caption: After the Institute
   chapters:
   - file: book/keep-learning
     title: More ways to keep learning
   - url: https://constellate.org
     title: Constellate Platform
-
-- part: Create your own Teaching Website
+- caption: Create your own Teaching Website
   chapters:
   - file: book/create-your-own
     title: Create your own Jupyter Book
@@ -63,6 +49,3 @@
     title: Push changes to the web
   - url: https://jupyterbook.org/intro.html
     title: Official Jupyter Book Documentation
-
-
-
