@@ -1,5 +1,9 @@
 # About
-Welcome to the **2021 Text Analysis Pedagogy Institute**, an open educational institute for the benefit of teachers (and aspiring teachers) of text analysis in the digital humanities and data science. The 2021 TAP Institute is led by [JSTOR Labs](https://labs.jstor.org) in partnership with [The University of Virginia Library](https://www.library.virginia.edu/) and [The University of Virginia School of Data Science](https://datascience.virginia.edu/). It is made possible by funding from the [National Endowment for the Humanities](https://neh.gov).
+This website contains the open course materials for the **2021 Text Analysis Pedagogy Institute** which concluded in July 2021. The 2021 TAP Institute was led by [JSTOR Labs](https://labs.jstor.org) in partnership with [The University of Virginia Library](https://www.library.virginia.edu/) and [The University of Virginia School of Data Science](https://datascience.virginia.edu/). It was made possible by funding from the [National Endowment for the Humanities](https://neh.gov).
+
+For information about the 2022 institute, watch the [Constellate website](https://constellate.org).
+
+The Text Analysis Pedagogy Institute is an open educational institute for the benefit of teachers (and aspiring teachers) of text analysis in the digital humanities and data science. 
 
 This site contains links to the workshops for the institute and intends to:
 
