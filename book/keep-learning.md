@@ -21,7 +21,7 @@
 * *Machine Learning with Python Cookbook* by Chris Albon
 * *Natural Langauge Processing in Action* by Hobson Lane, Cole Howard, and Hannes Max Hapke
 * *Humanities Data Analysis: Case Studies with Python* by Folgert Karsdorp, Mike Kestemont, and Allen Riddell
-* [A list of even more books](https://cmu-lib.github.io/dhlg/global-resources/educational-resources/textbooks/) by Scott B. Weingart
+* [A list of even more books](https://cmu-lib.github.io/dhlg/global-resources/educational-resources/textbooks/) by [Scott B. Weingart](https://scottbot.net/)
 
 ## Books on Data Ethics
 * *Algorithms of Oppression* by Safiya Noble
